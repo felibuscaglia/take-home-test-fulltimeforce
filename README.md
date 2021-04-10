@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# 🔎 Commit Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application will allow you to see all the commits that were made to the repository throughout the development of the application. You will be able to know how long ago they were made, what was modified and who did it, thanks to the GitHub REST API (https://docs.github.com/en/resthttps://docs.github.com/en/rest).
 
-## Available Scripts
+## 📦 Preliminary steps and installation
 
-In the project directory, you can run:
+The first thing you should do is clone this repository locally on your computer. For that, click on the green button that I show you below and follow the steps.
 
-### `npm start`
+![Shows how to clone this repository](https://i.ibb.co/DgKBwJ6/Captura-de-Pantalla-2021-04-10-a-la-s-09-53-32.png) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Once that is done, open your terminal and go to the location of your newly cloned repository. From your terminal, write the following command, which will install all the dependencies of the project.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+Once you have installed all the packages that will allow you to run the application correctly, the only thing left to do, always from the terminal and in the repository location, is to write the following command
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm start
+```
 
-### `npm run build`
+This will host the application on a local server on port 3000, if you don't have it in use for something else. Once the command is executed, a tab should be generated in your default browser where you can access the app. In case that doesn't happen, just type this address (http://localhost:3000/) in any browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔨 Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Bootstrap](https://react-bootstrap.github.io/)

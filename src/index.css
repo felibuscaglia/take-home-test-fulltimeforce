@@ -23,3 +23,17 @@ p {
   font-family: 'Nunito';
   font-weight: 200;
 }
+
+#redirectBtn {
+  position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    font-weight: 200;
+    border-top-right-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'Nunito';
+}
