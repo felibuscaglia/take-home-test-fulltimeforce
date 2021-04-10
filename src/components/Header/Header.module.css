@@ -1,0 +1,13 @@
+#header {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    justify-content: space-between;
+    font-family: 'Nunito';
+    font-weight: 200;
+    color: white;
+}
+
+#logo {
+    height: 50px;
+}
