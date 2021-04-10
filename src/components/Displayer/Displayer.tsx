@@ -13,8 +13,10 @@ function Displayer(): JSX.Element {
 
     async function asyncUseEffect() {
         const repositoryCommits: (Commit[] | string) = await getCommits();
+
         if (typeof repositoryCommits !== 'string') setCommits(repositoryCommits);
         else setFail(true);
+        
         setLoading(false);
     }
 
