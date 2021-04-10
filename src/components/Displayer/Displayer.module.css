@@ -1,0 +1,60 @@
+#accordion {
+    width: 75%;
+}
+
+#accordionToggle {
+    background-color: transparent;
+    border: none;
+    font-family: 'Nunito';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prBody {
+    font-weight: 800;
+}
+
+#ghBtn {
+    border-bottom: 1px solid black;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+#profilePic {
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    font-family: 'Nunito';
+    margin-top: 25px;
+    align-self: flex-end;
+}
+
+#cardBody {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spinner {
+    height: 50px;
+    width: 50px;
+    margin: 0px 25px;
+}
+
+#fail {
+    font-family: 'Nunito';
+    font-weight: 200;
+    text-align: center;
+    margin-top: 50px;
+}
