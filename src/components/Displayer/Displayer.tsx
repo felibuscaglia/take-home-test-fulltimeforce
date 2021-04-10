@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Accordion, Card, Spinner } from "react-bootstrap";
+import moment from 'moment';
 import { Commit } from '../../types';
 import { getCommits } from '../../utils';
 const style = require('./Displayer.module.css');
@@ -38,7 +39,7 @@ function Displayer(): JSX.Element {
                 <h2 id={style.fail}>Something failed...</h2>
             </div>
         )
-    } 
+    }
 
     return (
         <Accordion id={style.accordion}>
@@ -46,7 +47,7 @@ function Displayer(): JSX.Element {
                 <Card>
                     <Card.Header>
                         <Accordion.Toggle id={style.accordionToggle} eventKey={String(index)}>
-                            {commit.date}
+                            Commit made {moment(commit.date).fromNow()}
                         </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey={String(index)}>
@@ -56,7 +57,7 @@ function Displayer(): JSX.Element {
                                 <a target="blank" href={commit.url} id={style.ghBtn}><i className="fab fa-github"></i> Open in GitHub.</a>
                             </p>
                             <div id={style.author}>
-                                Pull request made by
+                                Commit made by
                                 <a target="blank" href={commit.authorGithubLink}><img src={commit.authorProfilePic} id={style.profilePic} /></a>
                                 <b className="bolder">@{commit.authorUsername}</b>
                             </div>
